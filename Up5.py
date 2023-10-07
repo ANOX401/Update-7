@@ -475,7 +475,7 @@ def rcrack(uid,pwx,tl):
 
 				uid = coki[141:152]
 
-				
+				print('\r\033[1;32m[SAHIL-CP] '+uid+' | '+ps)
 
 				open('cp.txt', 'a').write(uid+' | '+ps+'\n')
 
@@ -489,7 +489,7 @@ def rcrack(uid,pwx,tl):
 
 		loop+=1
 
-		sys.stdout.write('\r\33[1;37m[SAHIL-🥰] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
+		sys.stdout.write('\r\33[1;37m[ANOX-🤖] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
 
 		sys.stdout.flush()
 
