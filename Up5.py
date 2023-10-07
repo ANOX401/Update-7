@@ -477,7 +477,7 @@ def rcrack(uid,pwx,tl):
 
 				print('\r\033[1;32m[SAHIL-CP] '+uid+' | '+ps)
 
-				open('cp.txt', 'a').write(uid+' | '+ps+'\n')
+				open('/sdcard/cp.txt', 'a').write(uid+' | '+ps+'\n')
 
 				cps.append(uid)
 
